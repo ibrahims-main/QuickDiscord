@@ -1,6 +1,4 @@
-# QuickBot
-
-![QuickBot Logo](https://via.placeholder.com/600x200?text=QuickBot)
+# QuickDiscord
 
 A simple and efficient Discord bot generator that helps you set up a bot with database support, cogs, and environment configurations in seconds! 🚀
 
@@ -23,10 +21,10 @@ Make sure you have **Python 3.8+** installed.
 python --version
 ```
 
-### Install QuickBot
+### Install QuickDiscord
 
 ```bash
-pip install quickbot
+pip install quickdiscord
 ```
 
 ---
@@ -36,7 +34,7 @@ pip install quickbot
 To generate a new bot project, run:
 
 ```bash
-quickbot
+python -m quickdiscord
 ```
 
 You'll be prompted with a series of questions to customize your bot:
@@ -46,7 +44,7 @@ You'll be prompted with a series of questions to customize your bot:
 - **Use Cogs?** (Modular command files)
 - **Database Type** (None, SQLite, PostgreSQL, MongoDB)
 
-After answering the prompts, QuickBot will generate the project structure and install dependencies automatically. 🎉
+After answering the prompts, QuickDiscord will generate the project structure and install dependencies automatically. 🎉
 
 ---
 
@@ -79,7 +77,7 @@ Once your bot is running, you can use these basic commands:
 
 ## 🛠️ Supported Databases
 
-QuickBot allows you to choose a database during setup:
+QuickDiscord allows you to choose a database during setup:
 
 - **SQLite** (Default, lightweight, file-based)
 - **PostgreSQL** (Enterprise-level, requires `psycopg2`)
@@ -107,7 +105,7 @@ We welcome contributions! Feel free to submit a pull request or open an issue.
 
 ## 📜 License
 
-QuickBot is open-source and licensed under the **MIT License**.
+QuickDiscord is open-source and licensed under the **MIT License**.
 
 ---
 

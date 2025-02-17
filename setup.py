@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="quickdiscord",
-    version="1.0.0",
+    version="1.0.2",
     author="Ibrahim Mohsin",
     author_email="codingstudentbruh@gmail.com",
     description="A simple Quick discord bot generator that will make all the necessary starter files.",
